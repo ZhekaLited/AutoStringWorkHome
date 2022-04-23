@@ -9,17 +9,17 @@ class getToStringTest {
 
     @Test
   public void reduce() {
-       assertEquals(-1,getToString.add(18));
+       assertEquals(-1,getToString.add());
     }
 
     @Test
     public void truee () {
 
-        assertEquals(0,getToString.add(18));
+        assertEquals(0,getToString.add());
     }
 
     @Test
     public void increase() {
-        assertEquals(2,getToString.add(19));
+        assertEquals(1,getToString.add());
     }
 }
