@@ -1,10 +1,10 @@
 public class getToString {
 
     public static void main(String[] args) {
-
+    add(); 
     }
 
-    public static int add(int num) {
+    public static int add() {
         String str1 = "This is exercise 1";
         String str2 = "This is Exercise 1";
 
