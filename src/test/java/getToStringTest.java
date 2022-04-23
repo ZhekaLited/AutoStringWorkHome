@@ -14,7 +14,6 @@ class getToStringTest {
 
     @Test
     public void truee() {
-
         assertEquals(0,getToString.add());
     }
 
