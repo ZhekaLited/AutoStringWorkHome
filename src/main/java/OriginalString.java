@@ -1,5 +1,5 @@
 public class OriginalString {
-    public static int main(String[] args) {
+    public static String main(String[] args) {
 
         String str = "w3resource.com";
         System.out.println("Original String : " + str);
@@ -14,7 +14,7 @@ public class OriginalString {
         System.out.println("Character(unicode point) = " + val1);
         // prints character at index9 in string
         System.out.println("Character(unicode point) = " + val2);
-        return val1;
+        return str;
     }
 
     public static int getIndexUtf(String str, int index) {
